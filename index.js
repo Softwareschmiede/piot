@@ -8,6 +8,11 @@ const ESP3 = require('esp3');
 
 
 const esp = new ESP3();
+esp.on('esp-data', function(data) {
+    console.log(data);
+});
+
+esp.open();
 
 piot.get('/', function(req, res) {
     res.send('<h1>Hello World</h1>');
