@@ -7,7 +7,7 @@ const io = require('socket.io')(http);
 const ESP3 = require('esp3');
 
 
-const esp = new ESP3();
+/*const esp = new ESP3();
 esp.on('esp-data', function(data) {
     console.log(data);
 });
@@ -16,7 +16,7 @@ esp.on('esp-error', function(err) {
     console.log(err);
 });
 
-esp.open();
+esp.open();*/
 
 
 app.use(Express.static(__dirname + '/public'));
