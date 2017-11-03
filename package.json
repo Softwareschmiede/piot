@@ -1,0 +1,31 @@
+{
+  "name": "piot",
+  "version": "0.0.1",
+  "description": "Web Application for intelligent home automatisation based on the EnOcean standard",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Softwareschmiede/piot.git"
+  },
+  "keywords": [
+    "Home",
+    "Automatisation",
+    "EnOcean",
+    "Node"
+  ],
+  "author": "David Spanier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Softwareschmiede/piot/issues"
+  },
+  "homepage": "https://github.com/Softwareschmiede/piot#readme",
+  "dependencies": {
+    "esp3": "0.0.1",
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  }
+}
